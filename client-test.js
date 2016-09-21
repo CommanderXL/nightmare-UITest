@@ -32,6 +32,7 @@ describe('reg-register Page test', function() {
 
     beforeEach(function() {
         nightmare = Nightmare();
+        nightmare.viewport(375, 500);   //控制viewport的大小
     });
 
     afterEach(function*() {
